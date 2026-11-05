@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tools/govee_scenes_*.json
+*.log
+btsnoop*
+*.zip

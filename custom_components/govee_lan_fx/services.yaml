@@ -1,0 +1,28 @@
+play_scene:
+  name: Play scene over Bluetooth
+  description: Send a Govee scene (from the light's effect library) over Bluetooth.
+  fields:
+    entity_id:
+      name: Light
+      required: true
+      example: light.my_ceiling_light
+      selector:
+        entity:
+          domain: light
+    scene:
+      name: Scene
+      required: true
+      example: Fire
+      selector:
+        text:
+effect_routes:
+  name: Local effects
+  description: List the effects that can be sent locally over Bluetooth.
+  fields:
+    entity_id:
+      name: Light
+      required: true
+      example: light.my_ceiling_light
+      selector:
+        entity:
+          domain: light
